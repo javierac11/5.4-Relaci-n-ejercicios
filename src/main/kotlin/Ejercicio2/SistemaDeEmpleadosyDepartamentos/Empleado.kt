@@ -1,9 +1,7 @@
 package org.example.Ejercicio2.SistemaDeEmpleadosyDepartamentos
 
 /**
- * EmpleadoFijo, que implementen el método calculaSalario() de diferentes maneras. Considera añadir una clase Departamento que tenga una lista de empleados y pueda calcular el salario total que se debe pagar a todos sus empleados.
- *
- * EmpleadoFijo podría tener a su vez dos propiedades distintas, salarioFijo y numPagas del que podríamos calcular su salario mensual.
+ * Considera añadir una clase Departamento que tenga una lista de empleados y pueda calcular el salario total que se debe pagar a todos sus empleados.
  *
  * Departamento podría tener una lista de empleados y dos métodos: agregarEmpleado y calculaSalarioTotal que tienen sus empleados al mes.
  *
