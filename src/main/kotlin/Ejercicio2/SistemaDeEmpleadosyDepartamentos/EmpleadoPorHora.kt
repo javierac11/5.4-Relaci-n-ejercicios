@@ -4,7 +4,7 @@ class EmpleadoPorHora(var horasTrabajadasMes: Double, var tarifaHora: Double, no
 
     override fun calcularSalario(): Double {
         var salario = horasTrabajadasMes * tarifaHora
-        return salario
+        return String.format("%.2f", salario).replace(',', '.').toDouble()
     }
 
 }
