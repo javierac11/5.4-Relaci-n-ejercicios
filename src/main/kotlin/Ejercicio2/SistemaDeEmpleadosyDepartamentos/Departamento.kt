@@ -1,6 +1,6 @@
 package org.example.Ejercicio2.SistemaDeEmpleadosyDepartamentos
 
-class Departamento(private var listaEmpleados: MutableList<Empleado> = mutableListOf()) {
+class Departamento(var listaEmpleados: MutableList<Empleado> = mutableListOf()) {
 
     fun addEmpleado(empleado: Empleado){
         listaEmpleados.add(empleado)
